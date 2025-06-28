@@ -3,8 +3,8 @@
 
 Manifest,Lua Files Here: https://discord.gg/M7jCcUvMmb / https://discord.gg/KYKFNmaEwp Ping @zazaajr24 for help (thats the owner of the downloader so me)
 
-to make a .exe do:
-cmd
+to make a .exe do open cmd in the folder
+
 **pyinstaller reboot_downloader.spec**
 
 if: **pyinstaller reboot_downloader.spec** didnt work try:
