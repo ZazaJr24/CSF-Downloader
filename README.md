@@ -7,8 +7,12 @@ to make a .exe do open cmd in the folder
 
 **pyinstaller reboot_downloader.spec**
 
-if: **pyinstaller reboot_downloader.spec** didnt work try:
-python -m PyInstaller reboot_downloader.spec
+if: 
+**pyinstaller reboot_downloader.spec** 
+
+didnt work try:
+
+**python -m PyInstaller reboot_downloader.spec**
 
 you want to change 
 
