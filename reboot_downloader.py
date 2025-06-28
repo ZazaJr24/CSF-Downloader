@@ -137,7 +137,7 @@ def print_welcome_screen():
     
     print(Fore.CYAN + "=" * width + Style.RESET_ALL)
     print(Fore.CYAN + Style.BRIGHT + "CSF Downloader".center(width) + Style.RESET_ALL)
-    print(Fore.CYAN + f"v1.0".center(width) + Style.RESET_ALL)
+    print(Fore.CYAN + f"v1.2".center(width) + Style.RESET_ALL)
     print(Fore.CYAN + "=" * width + Style.RESET_ALL)
     print()
     print(Fore.GREEN + f"Target Application: {Fore.YELLOW}{OUTPUT_FOLDER_NAME} (AppID: {APP_ID})" + Style.RESET_ALL)
