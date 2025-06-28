@@ -8,19 +8,17 @@ to make a .exe do open cmd in the folder
 **pyinstaller reboot_downloader.spec**
 
 if: 
-**pyinstaller reboot_downloader.spec** 
-
-didnt work try:
+**pyinstaller reboot_downloader.spec** didnt work try:
 
 **python -m PyInstaller reboot_downloader.spec**
 
-you want to change 
+# you want to change 
 
-# reboot_downloader.spec
+in reboot_downloader.spec .EXE output name
 
 **Line 40: name='Jurassic World Evolution 2',**
 
-In  reboot_downloader.py
+In  reboot_downloader.py Output Folder name and App Id
 
     #Application constants
      
@@ -28,7 +26,7 @@ In  reboot_downloader.py
      
      OUTPUT_FOLDER_NAME = "Jurassic World Evolution 2"
 
-In reboot_downloader.spec
+In reboot_downloader.spec Manifest lua 
 
     datas=[
      
