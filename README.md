@@ -1,7 +1,7 @@
 # CSF Clean Steam Files Downloader
 **Preset Game: Jurassic world evolution 2**
 
-Manifest,Lua Files Here: https://discord.gg/M7jCcUvMmb
+Manifest,Lua Files Here: https://discord.gg/M7jCcUvMmb / https://discord.gg/KYKFNmaEwp Ping @zazaajr24 for help (thats the owner of the downloader so me)
 
 to make a .exe do:
 cmd
@@ -12,7 +12,7 @@ python -m PyInstaller reboot_downloader.spec
 
 you want to change 
 
-datas=[
+        datas=[
      
         # Include files in both root and subdirectory for compatibility
         
@@ -30,7 +30,7 @@ datas=[
         
         ('steamctl_trimmed', 'steamctl_trimmed'),  # Include complete steamctl directory
         
-    ],
+      ],
     
 change names with new manifest and lua those up are examples if you need more help: https://discord.gg/M7jCcUvMmb
 
