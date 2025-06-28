@@ -12,6 +12,19 @@ python -m PyInstaller reboot_downloader.spec
 
 you want to change 
 
+# reboot_downloader.spec
+
+**Line 40: name='Jurassic World Evolution 2',**
+
+In  reboot_downloader.py
+
+    #Application constants
+     
+     APP_ID = "1244460"
+     
+     OUTPUT_FOLDER_NAME = "Jurassic World Evolution 2"
+
+In reboot_downloader.spec
 
     datas=[
      
