@@ -12,7 +12,8 @@ python -m PyInstaller reboot_downloader.spec
 
 you want to change 
 
-        datas=[
+
+    datas=[
      
         # Include files in both root and subdirectory for compatibility
         
@@ -30,7 +31,7 @@ you want to change
         
         ('steamctl_trimmed', 'steamctl_trimmed'),  # Include complete steamctl directory
         
-      ],
+    ],
     
 change names with new manifest and lua those up are examples if you need more help: https://discord.gg/M7jCcUvMmb
 
