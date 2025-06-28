@@ -6,6 +6,7 @@ Manifest,Lua Files Here: https://discord.gg/M7jCcUvMmb
 to make a .exe do:
 cmd
 **pyinstaller reboot_downloader.spec**
+
 if: **pyinstaller reboot_downloader.spec** didnt work try:
 python -m PyInstaller reboot_downloader.spec
 
