@@ -1,12 +1,12 @@
 # CSF Clean Steam Files Downloader
-Preset Game: Jurassic world evolution 2
+**Preset Game: Jurassic world evolution 2**
 
 Manifest,Lua Files Here: https://discord.gg/M7jCcUvMmb
 
 to make a .exe do:
 cmd
-pyinstaller reboot_downloader.spec
-if:pyinstaller reboot_downloader.spec didnt work try:
+**pyinstaller reboot_downloader.spec**
+if: **pyinstaller reboot_downloader.spec** didnt work try:
 python -m PyInstaller reboot_downloader.spec
 
 you want to change 
@@ -22,5 +22,5 @@ datas=[
     ],
 change names with new manifest and lua those up are examples if you need more help: https://discord.gg/M7jCcUvMmb
 
-run pip install -r requirements. txt
+run **pip install -r requirements. txt**
 if you want already working .exe / downloader go to branches on left top
