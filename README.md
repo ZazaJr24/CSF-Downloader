@@ -11,7 +11,9 @@ if: **pyinstaller reboot_downloader.spec** didnt work try:
 python -m PyInstaller reboot_downloader.spec
 
 you want to change 
+
 datas=[
+     
         # Include files in both root and subdirectory for compatibility
         
         ('2495100.lua', '.'),  # Include in root for compatibility
