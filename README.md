@@ -26,7 +26,7 @@ In  reboot_downloader.py Output Folder name and App Id
      
      OUTPUT_FOLDER_NAME = "Jurassic World Evolution 2"
 
-In reboot_downloader.spec Manifest lua 
+In reboot_downloader.spec Manifest and lua 
 
     datas=[
      
@@ -48,7 +48,7 @@ In reboot_downloader.spec Manifest lua
         
     ],
     
-change names with new manifest and lua those up are examples if you need more help: https://discord.gg/M7jCcUvMmb
+**change names with new manifest and lua those up are examples if you need more help: https://discord.gg/M7jCcUvMmb**
 
 run **pip install -r requirements. txt**
 if you want already working .exe / downloader go to branches on left top
