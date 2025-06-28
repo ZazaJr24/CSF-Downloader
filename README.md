@@ -12,7 +12,7 @@ if:
 
 **python -m PyInstaller reboot_downloader.spec**
 
-# you want to change 
+# You want to change 
 
 in reboot_downloader.spec .EXE output name
 
