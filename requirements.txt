@@ -1,0 +1,8 @@
+aiofiles>=23.1.0
+colorama>=0.4.6
+gevent>=22.10.2
+requests>=2.28.1
+steam>=1.4.4
+python-valve>=0.2.1
+vpk>=1.4.0
+pyinstaller>=5.13.0 
